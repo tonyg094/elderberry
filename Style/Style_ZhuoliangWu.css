@@ -1,0 +1,28 @@
+html{
+	background:#efd08d;
+}
+
+#logo{
+	text-align:center;
+}
+
+body{
+	width: 80%;
+	background:#ddb84f;
+	margin: auto;
+}	
+
+#bio{
+	width: 70%;
+}
+
+img.person{
+    float:  left;
+	transform: rotate(90deg);
+}
+
+div#logo {
+    padding: 15px;
+    margin: 20px auto 0px auto;
+    text-align: center;
+}
