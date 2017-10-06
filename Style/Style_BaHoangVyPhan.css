@@ -1,0 +1,98 @@
+body {
+    font-family: Segoe UI, arial, sans-serif;
+    background-color: WHITE;
+    color: #dddddd;
+}
+
+img.person {
+    width: 120px;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+div#bio {
+    width: 90%;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+div#logo {
+    padding: 15px;
+    margin: 20px auto 0px auto;
+    text-align: center;
+}
+
+div#container {
+    background-color: #477205;
+    min-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 300px;
+    margin: 0 auto -4em;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 50px;
+    border: 5px double yellow;
+}
+
+h1,
+h2,
+div > a {
+    padding-left: 30px;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFE97F;
+    outline: none;
+}
+
+img {
+    border: 0;
+}
+
+a img {
+    outline: none;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+@-webkit-keyframes rainbowTitle {
+    14% {
+        color: red;
+    }
+
+    28% {
+        color: orange;
+    }
+
+    32% {
+        color: yellow;
+    }
+
+    46% {
+        color: green;
+    }
+
+    60% {
+        color: blue;
+    }
+
+    74% {
+        color: indigo;
+    }
+
+    100% {
+        color: violet;
+    }
+
+}
